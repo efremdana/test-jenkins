@@ -2,7 +2,7 @@ package testproject;
 
 /** Class that aggregates a lot of values into one summ */
 class Aggregator {
-    private double sum = 0;
+    private double sum = 1;
 
     /**
      * Add a value to the aggregated number.
@@ -24,6 +24,6 @@ class Aggregator {
      * Reset the aggregated value
      */
     void reset() {
-        sum = 1;
+        sum = 0;
     }
 }
